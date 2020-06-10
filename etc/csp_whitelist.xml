@@ -4,11 +4,24 @@
         <policy id="img-src">
             <values>
                 <value id="data" type="host">data:</value>
+                <value id="maps" type="host">maps.googleapis.com</value>
+                <value id="maps-gstatic" type="host">maps.gstatic.com</value>
+                <value id="facebook" type="host">www.facebook.com</value>
             </values>
         </policy>
         <policy id="font-src">
             <values>
                 <value id="data" type="host">data:</value>
+            </values>
+        </policy>
+        <policy id="script-src">
+            <values>
+                <value id="maps" type="host">maps.googleapis.com</value>
+                <value id="maps-gstatic" type="host">maps.gstatic.com</value>
+                <value id="facebook-connect" type="host">connect.facebook.net</value>
+                <value id="vimeo" type="host">f.vimeocdn.com</value>
+                <value id="google" type="host">www.google.com</value>
+                <value id="gstatic" type="host">www.gstatic.com</value>
             </values>
         </policy>
     </policies>
