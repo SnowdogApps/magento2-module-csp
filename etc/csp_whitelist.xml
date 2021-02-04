@@ -22,6 +22,18 @@
                 <value id="vimeo" type="host">f.vimeocdn.com</value>
                 <value id="google" type="host">www.google.com</value>
                 <value id="gstatic" type="host">www.gstatic.com</value>
+                <value id="cardinal_commerce_includes" type="host">includes.ccdc02.com</value>
+            </values>
+        </policy>
+        <policy id="connect-src">
+            <values>
+                <value id="paypal" type="host">*.paypal.com</value>
+                <value id="authorize-net" type="host">*.authorize.net</value>
+            </values>
+        </policy>
+        <policy id="style-src">
+            <values>
+                <value id="style-googleapis" type="host">*.googleapis.com</value>
             </values>
         </policy>
     </policies>
