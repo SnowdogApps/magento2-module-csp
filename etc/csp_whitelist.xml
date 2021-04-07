@@ -7,6 +7,8 @@
                 <value id="maps" type="host">maps.googleapis.com</value>
                 <value id="maps-gstatic" type="host">maps.gstatic.com</value>
                 <value id="facebook" type="host">www.facebook.com</value>
+                <value id="gstatic" type="host">www.gstatic.com</value>
+                <value id="cloudfront" type="host">*.cloudfront.net</value>
             </values>
         </policy>
         <policy id="font-src">
@@ -21,14 +23,20 @@
                 <value id="facebook-connect" type="host">connect.facebook.net</value>
                 <value id="vimeo" type="host">f.vimeocdn.com</value>
                 <value id="google" type="host">www.google.com</value>
+                <value id="google-translate" type="host">http://translate.google.com</value>
+                <value id="googleapis-translate" type="host">translate.googleapis.com</value>
                 <value id="gstatic" type="host">www.gstatic.com</value>
                 <value id="cardinal_commerce_includes" type="host">includes.ccdc02.com</value>
+                <value id="zdassets" type="host">static.zdassets.com</value>
             </values>
         </policy>
         <policy id="connect-src">
             <values>
                 <value id="paypal" type="host">*.paypal.com</value>
                 <value id="authorize-net" type="host">*.authorize.net</value>
+                <value id="zdassets" type="host">ekr.zdassets.com</value>
+                <value id="zendesk" type="host">*.zendesk.com</value>
+                <value id="zopim" type="host">wss://widget-mediator.zopim.com</value>
             </values>
         </policy>
         <policy id="style-src">
@@ -39,6 +47,11 @@
         <policy id="frame-src">
             <values>
                 <value id="youtube" type="host">www.youtube.com</value>
+            </values>
+        </policy>
+        <policy id="media-src">
+            <values>
+                <value id="zdassets" type="host">static.zdassets.com</value>
             </values>
         </policy>
     </policies>
