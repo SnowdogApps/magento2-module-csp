@@ -9,11 +9,13 @@
                 <value id="facebook" type="host">www.facebook.com</value>
                 <value id="gstatic" type="host">www.gstatic.com</value>
                 <value id="cloudfront" type="host">*.cloudfront.net</value>
+                <value id="google" type="host">www.google.pl</value>
             </values>
         </policy>
         <policy id="font-src">
             <values>
                 <value id="data" type="host">data:</value>
+                <value id="stamped" type="host">cdn1.stamped.io</value>
             </values>
         </policy>
         <policy id="script-src">
@@ -28,6 +30,9 @@
                 <value id="gstatic" type="host">www.gstatic.com</value>
                 <value id="cardinal_commerce_includes" type="host">includes.ccdc02.com</value>
                 <value id="zdassets" type="host">static.zdassets.com</value>
+                <value id="inspectlet" type="host">cdn.inspectlet.com</value>
+                <value id="stamped" type="host">cdn1.stamped.io</value>
+                <value id="livechatinc" type="host">*.livechatinc.com</value>
             </values>
         </policy>
         <policy id="connect-src">
@@ -37,16 +42,20 @@
                 <value id="zdassets" type="host">ekr.zdassets.com</value>
                 <value id="zendesk" type="host">*.zendesk.com</value>
                 <value id="zopim" type="host">wss://widget-mediator.zopim.com</value>
+                <value id="inspectlet" type="host">hn.inspectlet.com</value>
+                <value id="stamped" type="host">stamped.io</value>
             </values>
         </policy>
         <policy id="style-src">
             <values>
                 <value id="style-googleapis" type="host">*.googleapis.com</value>
+                <value id="stamped" type="host">cdn1.stamped.io</value>
             </values>
         </policy>
         <policy id="frame-src">
             <values>
                 <value id="youtube" type="host">www.youtube.com</value>
+                <value id="livechatinc" type="host">secure.livechatinc.com</value>
             </values>
         </policy>
         <policy id="media-src">
