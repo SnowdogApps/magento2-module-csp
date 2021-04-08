@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
-<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp/etc/csp_whitelist.xsd">
+<csp_whitelist
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp/etc/csp_whitelist.xsd"
+>
     <policies>
         <policy id="img-src">
             <values>
@@ -7,11 +10,17 @@
                 <value id="maps" type="host">maps.googleapis.com</value>
                 <value id="maps-gstatic" type="host">maps.gstatic.com</value>
                 <value id="facebook" type="host">www.facebook.com</value>
+                <value id="gstatic" type="host">www.gstatic.com</value>
+                <value id="cloudfront" type="host">*.cloudfront.net</value>
+                <value id="google" type="host">www.google.pl</value>
+                <value id="stamped" type="host">cdn.stamped.io</value>
+                <value id="paypal" type="host">*.paypal.com</value>
             </values>
         </policy>
         <policy id="font-src">
             <values>
                 <value id="data" type="host">data:</value>
+                <value id="stamped" type="host">cdn1.stamped.io</value>
             </values>
         </policy>
         <policy id="script-src">
@@ -21,24 +30,46 @@
                 <value id="facebook-connect" type="host">connect.facebook.net</value>
                 <value id="vimeo" type="host">f.vimeocdn.com</value>
                 <value id="google" type="host">www.google.com</value>
+                <value id="google-translate" type="host">http://translate.google.com</value>
+                <value id="googleapis-translate" type="host">translate.googleapis.com</value>
                 <value id="gstatic" type="host">www.gstatic.com</value>
                 <value id="cardinal_commerce_includes" type="host">includes.ccdc02.com</value>
+                <value id="zdassets" type="host">static.zdassets.com</value>
+                <value id="inspectlet" type="host">cdn.inspectlet.com</value>
+                <value id="stamped" type="host">cdn1.stamped.io</value>
+                <value id="livechatinc" type="host">*.livechatinc.com</value>
+                <value id="userway" type="host">*.userway.org</value>
+                <value id="paypal" type="host">*.paypal.com</value>
             </values>
         </policy>
         <policy id="connect-src">
             <values>
                 <value id="paypal" type="host">*.paypal.com</value>
                 <value id="authorize-net" type="host">*.authorize.net</value>
+                <value id="zdassets" type="host">ekr.zdassets.com</value>
+                <value id="zendesk" type="host">*.zendesk.com</value>
+                <value id="zopim" type="host">wss://widget-mediator.zopim.com</value>
+                <value id="inspectlet" type="host">hn.inspectlet.com</value>
+                <value id="stamped" type="host">stamped.io</value>
+                <value id="braintree" type="host">*.braintree-api.com</value>
             </values>
         </policy>
         <policy id="style-src">
             <values>
                 <value id="style-googleapis" type="host">*.googleapis.com</value>
+                <value id="stamped" type="host">cdn1.stamped.io</value>
             </values>
         </policy>
         <policy id="frame-src">
             <values>
                 <value id="youtube" type="host">www.youtube.com</value>
+                <value id="livechatinc" type="host">secure.livechatinc.com</value>
+                <value id="paypal" type="host">*.paypal.com</value>
+            </values>
+        </policy>
+        <policy id="media-src">
+            <values>
+                <value id="zdassets" type="host">static.zdassets.com</value>
             </values>
         </policy>
     </policies>
