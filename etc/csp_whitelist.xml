@@ -33,6 +33,7 @@
                 <value id="inspectlet" type="host">cdn.inspectlet.com</value>
                 <value id="stamped" type="host">cdn1.stamped.io</value>
                 <value id="livechatinc" type="host">*.livechatinc.com</value>
+                <value id="userway" type="host">*.userway.org</value>
             </values>
         </policy>
         <policy id="connect-src">
