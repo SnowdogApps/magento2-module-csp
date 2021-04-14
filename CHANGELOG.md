@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 ### Added
+- 77649: pay.google.com policy
 ## [Released]
 
 ## [1.1.0] - 2021-04-08

@@ -40,6 +40,7 @@
                 <value id="livechatinc" type="host">*.livechatinc.com</value>
                 <value id="userway" type="host">*.userway.org</value>
                 <value id="paypal" type="host">*.paypal.com</value>
+                <value id="googlepay" type="host">pay.google.com</value>
             </values>
         </policy>
         <policy id="connect-src">
@@ -65,6 +66,7 @@
                 <value id="youtube" type="host">www.youtube.com</value>
                 <value id="livechatinc" type="host">secure.livechatinc.com</value>
                 <value id="paypal" type="host">*.paypal.com</value>
+                <value id="googlepay" type="host">pay.google.com</value>
             </values>
         </policy>
         <policy id="media-src">
