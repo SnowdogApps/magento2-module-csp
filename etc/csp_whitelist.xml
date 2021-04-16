@@ -68,6 +68,7 @@
                 <value id="livechatinc" type="host">secure.livechatinc.com</value>
                 <value id="paypal" type="host">*.paypal.com</value>
                 <value id="googlepay" type="host">pay.google.com</value>
+                <value id="braintree-gateway" type="host">*.braintreegateway.com</value>
             </values>
         </policy>
         <policy id="media-src">
