@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 ### Added
-- 77649: new policies (pay.google.com, braintree-api.com, braintreegateway.com)
+- 77649: new policies (pay.google.com, braintree-api.com, braintreegateway.com, tst.kaptcha.com)
 ## [Released]
 
 ## [1.1.0] - 2021-04-08
