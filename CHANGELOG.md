@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 ### Added
-- 77649: pay.google.com policy
+- 77649: new policies (pay.google.com, braintree-api.com, braintreegateway.com)
 ## [Released]
 
 ## [1.1.0] - 2021-04-08
