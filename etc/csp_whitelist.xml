@@ -40,6 +40,7 @@
                 <value id="livechatinc" type="host">*.livechatinc.com</value>
                 <value id="userway" type="host">*.userway.org</value>
                 <value id="paypal" type="host">*.paypal.com</value>
+                <value id="googlepay" type="host">pay.google.com</value>
             </values>
         </policy>
         <policy id="connect-src">
@@ -51,7 +52,8 @@
                 <value id="zopim" type="host">wss://widget-mediator.zopim.com</value>
                 <value id="inspectlet" type="host">hn.inspectlet.com</value>
                 <value id="stamped" type="host">stamped.io</value>
-                <value id="braintree" type="host">*.braintree-api.com</value>
+                <value id="braintree-api" type="host">*.braintree-api.com</value>
+                <value id="braintree-gateway" type="host">*.braintreegateway.com</value>
             </values>
         </policy>
         <policy id="style-src">
@@ -65,6 +67,9 @@
                 <value id="youtube" type="host">www.youtube.com</value>
                 <value id="livechatinc" type="host">secure.livechatinc.com</value>
                 <value id="paypal" type="host">*.paypal.com</value>
+                <value id="googlepay" type="host">pay.google.com</value>
+                <value id="braintree-gateway" type="host">*.braintreegateway.com</value>
+                <value id="kaptcha" type="host">tst.kaptcha.com</value>
             </values>
         </policy>
         <policy id="media-src">
