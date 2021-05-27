@@ -13,14 +13,15 @@
                 <value id="gstatic" type="host">www.gstatic.com</value>
                 <value id="cloudfront" type="host">*.cloudfront.net</value>
                 <value id="google" type="host">www.google.pl</value>
-                <value id="stamped" type="host">cdn.stamped.io</value>
+                <value id="stamped" type="host">*.stamped.io</value>
                 <value id="paypal" type="host">*.paypal.com</value>
+                <value id="amazonaws" type="host">*.amazonaws.com</value>
             </values>
         </policy>
         <policy id="font-src">
             <values>
                 <value id="data" type="host">data:</value>
-                <value id="stamped" type="host">cdn1.stamped.io</value>
+                <value id="stamped" type="host">*.stamped.io</value>
             </values>
         </policy>
         <policy id="script-src">
@@ -36,7 +37,7 @@
                 <value id="cardinal_commerce_includes" type="host">includes.ccdc02.com</value>
                 <value id="zdassets" type="host">static.zdassets.com</value>
                 <value id="inspectlet" type="host">cdn.inspectlet.com</value>
-                <value id="stamped" type="host">cdn1.stamped.io</value>
+                <value id="stamped" type="host">*.stamped.io</value>
                 <value id="livechatinc" type="host">*.livechatinc.com</value>
                 <value id="userway" type="host">*.userway.org</value>
                 <value id="paypal" type="host">*.paypal.com</value>
@@ -54,22 +55,24 @@
                 <value id="stamped" type="host">stamped.io</value>
                 <value id="braintree-api" type="host">*.braintree-api.com</value>
                 <value id="braintree-gateway" type="host">*.braintreegateway.com</value>
+                <value id="paypalobjects" type="host">www.paypalobjects.com</value>
+                <value id="livechatinc" type="host">*.livechatinc.com</value>
             </values>
         </policy>
         <policy id="style-src">
             <values>
                 <value id="style-googleapis" type="host">*.googleapis.com</value>
-                <value id="stamped" type="host">cdn1.stamped.io</value>
+                <value id="stamped" type="host">*.stamped.io</value>
             </values>
         </policy>
         <policy id="frame-src">
             <values>
                 <value id="youtube" type="host">www.youtube.com</value>
-                <value id="livechatinc" type="host">secure.livechatinc.com</value>
+                <value id="livechatinc" type="host">*.livechatinc.com</value>
                 <value id="paypal" type="host">*.paypal.com</value>
                 <value id="googlepay" type="host">pay.google.com</value>
                 <value id="braintree-gateway" type="host">*.braintreegateway.com</value>
-                <value id="kaptcha" type="host">tst.kaptcha.com</value>
+                <value id="kaptcha" type="host">*.kaptcha.com</value>
             </values>
         </policy>
         <policy id="media-src">
