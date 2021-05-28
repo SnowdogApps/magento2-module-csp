@@ -57,6 +57,7 @@
                 <value id="braintree-gateway" type="host">*.braintreegateway.com</value>
                 <value id="paypalobjects" type="host">www.paypalobjects.com</value>
                 <value id="livechatinc" type="host">*.livechatinc.com</value>
+                <value id="userway" type="host">*.userway.org</value>
             </values>
         </policy>
         <policy id="style-src">
