@@ -1,7 +1,8 @@
 # CHANGELOG
 
 ## [Unreleased]
-
+### Added
+- 79029: new policies (www.paypalobjects.com, *.livechatinc.com, *.amazonaws.com, *.kaptcha.com, *.stamped.io, *.userway.org)
 
 ## [Released]
 ## [1.2.0] - 2021-04-21
