@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 ### Added
+### Added
+- 79029: new policy (www.paypalobjects.com for frame-src)
 
 ## [Released]
 ## [1.3.0] - 2021-06-10

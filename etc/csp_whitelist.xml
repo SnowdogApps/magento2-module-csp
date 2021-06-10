@@ -74,6 +74,7 @@
                 <value id="googlepay" type="host">pay.google.com</value>
                 <value id="braintree-gateway" type="host">*.braintreegateway.com</value>
                 <value id="kaptcha" type="host">*.kaptcha.com</value>
+                <value id="paypalobjects" type="host">www.paypalobjects.com</value>
             </values>
         </policy>
         <policy id="media-src">
