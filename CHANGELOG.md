@@ -5,6 +5,10 @@
 
 
 ## [Released]
+
+## [1.3.2] - 2021-06-10
+### Fixed
+- 79029: The Content-Security-Policy directive `frame-ancestors` does not support the source expression `unsafe-inline`
 ## [1.3.1] - 2021-06-10
 ### Added
 - 79029: new policy (www.paypalobjects.com for frame-src)
