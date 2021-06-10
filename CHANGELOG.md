@@ -2,10 +2,12 @@
 
 ## [Unreleased]
 ### Added
-### Added
-- 79029: new policy (www.paypalobjects.com for frame-src)
+
 
 ## [Released]
+## [1.3.1] - 2021-06-10
+### Added
+- 79029: new policy (www.paypalobjects.com for frame-src)
 ## [1.3.0] - 2021-06-10
 ### Added
 - 79029: new policies (www.paypalobjects.com, *.livechatinc.com, *.amazonaws.com, *.kaptcha.com, *.stamped.io, *.userway.org)
