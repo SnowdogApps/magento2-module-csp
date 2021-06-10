@@ -1,9 +1,12 @@
 # CHANGELOG
 
 ## [Unreleased]
-
+### Added
 
 ## [Released]
+## [1.3.0] - 2021-06-10
+### Added
+- 79029: new policies (www.paypalobjects.com, *.livechatinc.com, *.amazonaws.com, *.kaptcha.com, *.stamped.io, *.userway.org)
 ## [1.2.0] - 2021-04-21
 ### Added
 - 77649: new policies (pay.google.com, braintree-api.com, braintreegateway.com, tst.kaptcha.com)
