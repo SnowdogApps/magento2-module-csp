@@ -16,6 +16,7 @@
                 <value id="stamped" type="host">*.stamped.io</value>
                 <value id="paypal" type="host">*.paypal.com</value>
                 <value id="amazonaws" type="host">*.amazonaws.com</value>
+                <value id="userway" type="host">*.userway.org</value>
             </values>
         </policy>
         <policy id="font-src">
