@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 ### Added
-
+- 80756: new policy (*.userway.org for img-src)
 
 ## [Released]
 
