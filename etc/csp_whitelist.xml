@@ -70,7 +70,6 @@
                 <value id="style-googleapis" type="host">*.googleapis.com</value>
                 <value id="stamped" type="host">*.stamped.io</value>
                 <value id="klarna-payments" type="host">www.klarnapayments.com</value>
-                
             </values>
         </policy>
         <policy id="frame-src">
