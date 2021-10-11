@@ -46,6 +46,7 @@
                 <value id="paypal" type="host">*.paypal.com</value>
                 <value id="googlepay" type="host">pay.google.com</value>
                 <value id="klarna-payments" type="host">www.klarnapayments.com</value>
+                <value id="affirm" type="host">*.affirm.com</value>
             </values>
         </policy>
         <policy id="connect-src">
@@ -63,6 +64,7 @@
                 <value id="livechatinc" type="host">*.livechatinc.com</value>
                 <value id="userway" type="host">*.userway.org</value>
                 <value id="instagram-graph" type="host">graph.instagram.com</value>
+                <value id="affirm" type="host">*.affirm.com</value>
             </values>
         </policy>
         <policy id="style-src">
