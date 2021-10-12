@@ -4,10 +4,11 @@
 ### Added
 - 80756: new policy (*.userway.org for img-src)
 - 82815: new policy:
-    - img-src: verify.authorize.net
+    - img-src: verify.authorize.net *.affirm.com
     - script-src: www.klarnapayments.com *.affirm.com
     - style-src: www.klarnapayments.com
     - connect-src: *.affirm.com
+    - frame-src: *.affirm.com
 - 82762:
     - img-src: scontent.cdninstagram.com
     - connect-src: graph.instagram.com

@@ -19,6 +19,7 @@
                 <value id="userway" type="host">*.userway.org</value>
                 <value id="autorize-verify" type="host">verify.authorize.net</value>
                 <value id="instagram-cdn" type="host">scontent.cdninstagram.com</value>
+                <value id="affirm" type="host">*.affirm.com</value>
             </values>
         </policy>
         <policy id="font-src">
@@ -83,6 +84,7 @@
                 <value id="braintree-gateway" type="host">*.braintreegateway.com</value>
                 <value id="kaptcha" type="host">*.kaptcha.com</value>
                 <value id="paypalobjects" type="host">www.paypalobjects.com</value>
+                <value id="affirm" type="host">*.affirm.com</value>
             </values>
         </policy>
         <policy id="media-src">
