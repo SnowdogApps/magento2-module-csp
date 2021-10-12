@@ -68,6 +68,7 @@
                 <value id="userway" type="host">*.userway.org</value>
                 <value id="instagram-graph" type="host">graph.instagram.com</value>
                 <value id="affirm" type="host">*.affirm.com</value>
+                <value id="route" type="host">*.route.com</value>
             </values>
         </policy>
         <policy id="style-src">
