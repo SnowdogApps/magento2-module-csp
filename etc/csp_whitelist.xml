@@ -20,6 +20,7 @@
                 <value id="autorize-verify" type="host">verify.authorize.net</value>
                 <value id="instagram-cdn" type="host">scontent.cdninstagram.com</value>
                 <value id="affirm" type="host">*.affirm.com</value>
+                <value id="routeapp" type="host">*.routeapp.io</value>
             </values>
         </policy>
         <policy id="font-src">
@@ -48,6 +49,7 @@
                 <value id="googlepay" type="host">pay.google.com</value>
                 <value id="klarna-payments" type="host">www.klarnapayments.com</value>
                 <value id="affirm" type="host">*.affirm.com</value>
+                <value id="routeapp" type="host">*.routeapp.io</value>
             </values>
         </policy>
         <policy id="connect-src">

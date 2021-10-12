@@ -4,8 +4,8 @@
 ### Added
 - 80756: new policy (*.userway.org for img-src)
 - 82815: new policy:
-    - img-src: verify.authorize.net *.affirm.com
-    - script-src: www.klarnapayments.com *.affirm.com
+    - img-src: verify.authorize.net *.affirm.com *.routeapp.io
+    - script-src: www.klarnapayments.com *.affirm.com *.routeapp.io
     - style-src: www.klarnapayments.com
     - connect-src: *.affirm.com
     - frame-src: *.affirm.com
