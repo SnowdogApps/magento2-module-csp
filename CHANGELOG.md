@@ -1,6 +1,10 @@
 # CHANGELOG
 
 ## [Unreleased]
+
+## [Released]
+
+## [1.4.0] - 2021-10-15
 ### Added
 - 80756: new policy (*.userway.org for img-src)
 - 82815: new policy:
@@ -12,8 +16,6 @@
 - 82762:
     - img-src: scontent.cdninstagram.com
     - connect-src: graph.instagram.com
-
-## [Released]
 
 ## [1.3.2] - 2021-06-10
 ### Fixed
