@@ -16,6 +16,11 @@
                 <value id="stamped" type="host">*.stamped.io</value>
                 <value id="paypal" type="host">*.paypal.com</value>
                 <value id="amazonaws" type="host">*.amazonaws.com</value>
+                <value id="userway" type="host">*.userway.org</value>
+                <value id="autorize-verify" type="host">verify.authorize.net</value>
+                <value id="instagram-cdn" type="host">scontent.cdninstagram.com</value>
+                <value id="affirm" type="host">*.affirm.com</value>
+                <value id="routeapp" type="host">*.routeapp.io</value>
             </values>
         </policy>
         <policy id="font-src">
@@ -42,6 +47,9 @@
                 <value id="userway" type="host">*.userway.org</value>
                 <value id="paypal" type="host">*.paypal.com</value>
                 <value id="googlepay" type="host">pay.google.com</value>
+                <value id="klarna-payments" type="host">www.klarnapayments.com</value>
+                <value id="affirm" type="host">*.affirm.com</value>
+                <value id="routeapp" type="host">*.routeapp.io</value>
             </values>
         </policy>
         <policy id="connect-src">
@@ -58,12 +66,16 @@
                 <value id="paypalobjects" type="host">www.paypalobjects.com</value>
                 <value id="livechatinc" type="host">*.livechatinc.com</value>
                 <value id="userway" type="host">*.userway.org</value>
+                <value id="instagram-graph" type="host">graph.instagram.com</value>
+                <value id="affirm" type="host">*.affirm.com</value>
+                <value id="route" type="host">*.route.com</value>
             </values>
         </policy>
         <policy id="style-src">
             <values>
                 <value id="style-googleapis" type="host">*.googleapis.com</value>
                 <value id="stamped" type="host">*.stamped.io</value>
+                <value id="klarna-payments" type="host">www.klarnapayments.com</value>
             </values>
         </policy>
         <policy id="frame-src">
@@ -75,6 +87,7 @@
                 <value id="braintree-gateway" type="host">*.braintreegateway.com</value>
                 <value id="kaptcha" type="host">*.kaptcha.com</value>
                 <value id="paypalobjects" type="host">www.paypalobjects.com</value>
+                <value id="affirm" type="host">*.affirm.com</value>
             </values>
         </policy>
         <policy id="media-src">
