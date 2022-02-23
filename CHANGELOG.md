@@ -4,6 +4,10 @@
 
 ## [Released]
 
+## [1.5.0] - 2022-02-23
+## Added
+- 87351: Yotpo sequence to fix CSP policies loading correctly
+
 ## [1.4.0] - 2021-10-15
 ### Added
 - 80756: new policy (*.userway.org for img-src)
